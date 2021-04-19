@@ -24,7 +24,7 @@ if __name__=='__main__':
     print("total prime numbers less than 10^8 is : "+str(t))
     print("Max steps will be taken to find p==q or not is : "+str(int(math.log(t,2))+1))
     n=input("Enter n (p*q) where p,q are primes and p,q < 10^8 : ")
-    print(str(n))
+    print("n is : "+str(n))
     r=binary_search(D,0,t,n,0)
     if r!=-1:
         print("p = q and p is : "+str(r))
