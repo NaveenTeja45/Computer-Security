@@ -18,3 +18,4 @@ if __name__=='__main__':
     for p in range(n + 1):
         if prime[p]:
             f.write(str(p)+" ")
+    print("Storing primes completed")
